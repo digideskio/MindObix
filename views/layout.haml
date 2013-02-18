@@ -1,0 +1,15 @@
+!!! 5
+%html{html_attrs('en-en')}
+  %head
+    %meta{:'http-equiv' => "Content-Type", :content => "text/html; charset=utf-8"}
+    %meta{:name => "lang", :content => "en"}
+    %title MindObix
+    %link{:href => "/style.css", :media => "all", :rel => "stylesheet", :type => "text/css"}
+   
+    %script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"}
+
+    %script{:type => "text/javascript", :src => "/js/app.js"}
+  %body
+    MindObix.com
+    =yield
+    = haml :analytics, :layout => false
