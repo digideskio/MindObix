@@ -1,0 +1,184 @@
+body {
+	a {
+		text-decoration: none;
+	}
+	font-family: verdana,arial,tahoma,sans-serif;
+	font-size:13px;
+}
+
+h1,h2,h3,h4,div,p,td,span {
+	font-family: verdana,arial,tahoma,sans-serif;
+	
+}
+
+.para {
+	padding-left:55px;
+	padding-right:30px;
+	font-size:13px;
+
+}
+.para-from {
+	padding-top:15px;
+	padding-left:35px;
+	padding-right:30px;
+	font-size:13px;
+	font-style:italic;
+	text-align:left;
+}
+.para-from1 {
+	padding-top:15px;
+	padding-left:55px;
+	padding-right:30px;
+	font-size:13px;
+	font-style:italic;
+	text-align:left;
+}
+.section {
+    padding-top:15px;
+    padding-bottom:10px;
+	padding-left:55px;
+	padding-right:30px;
+	font-size:17px;
+	font-weight:normal;
+}
+
+.sub-section {
+  
+    padding-bottom:10px;
+	padding-left:55px;
+	padding-right:30px;
+	font-size:13px;
+	font-weight:normal;
+}
+.sub-section1 {
+    padding-top:10px;
+    padding-bottom:10px;
+	padding-left:55px;
+	padding-right:30px;
+	font-size:13px;
+	font-weight:normal;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+    background-color:#000000;
+}
+
+.dark {
+    background: #2F2F2F;
+    color: #7F7F7F;
+}
+.light {
+    background: #EEEEEE;
+    color: #2F2F2F;
+}
+
+#divWinSummary {
+	font-size:20px;
+	font-weight:bold;
+	
+}
+#divUpcomingFight {
+	font-size:22px;
+	font-style:italic;
+	color: #DAA520;
+	padding-top:35px;
+	font-family:'Times New Roman';
+	cursor:pointer;
+	
+}
+
+#divVs {
+	font-size:18px;
+	color: #FFFFFF;
+	font-style:italic;
+	padding-top:5px;
+	font-family:'Times New Roman';
+}
+
+#divUpcomingEvent {
+	font-size:16px;
+	font-family:'Times New Roman';
+	color: #FFFFFF;
+	padding-top:10px;
+	padding-bottom:35px;
+}
+
+
+#tblRecord {
+	
+	padding-left:30px;
+}
+
+#tblRecord  .header td { 
+	background-color:#FFFFFF; 
+	padding:4px;
+	color: #2D2D2D;  
+}
+#tblRecord .data td {  
+	color: #FFFFFF;  
+	font-weight:normal;
+	padding:4px;
+	border: solid 1px #FFFFFF;
+}
+#tblRecord .data1 td {  
+	color: #DAA520;  
+	font-weight:normal;
+	padding:4px;
+	border: solid 1px #FFFFFF;
+}
+
+#divLeftNavBg {
+    position:absolute; 
+    padding-top:20px;
+    width:30%;
+    min-width: 30%;
+    width:auto !important;
+    min-height: 100%;
+    height:auto !important;
+    height:100%;
+    float:left;
+    color:#FFF;
+    text-align:center;
+    
+    /* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(45, 45, 45);
+
+	/* RGBa with 0.65 opacity */
+	background: rgba(45, 45, 45, 0.65);
+
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+#divContentBg {
+    position:absolute; 
+    padding-left:20px;
+    padding-top:20px;
+    left:30%;
+    width:70%;
+    min-width: 70%;
+    width:auto !important;
+    min-height: 100%;
+    height:auto !important;
+    height:100%;
+    float:left;
+    color:#FFF;
+    text-align:left;
+    
+    /* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(45, 45, 45);
+
+	/* RGBa with 0.65 opacity */
+	background: rgba(45, 45, 45, 0.90);
+
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}

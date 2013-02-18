@@ -1,0 +1,32 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.4.0)
+    compass (0.10.6)
+      haml (>= 3.0.4)
+    execjs (1.4.0)
+      multi_json (~> 1.0)
+    haml (3.0.25)
+    multi_json (1.5.1)
+    rack (1.2.2)
+    rack-coffee (1.0.0)
+      coffee-script
+      rack
+    sass (3.1.0.alpha.252)
+    sinatra (1.2.1)
+      rack (~> 1.1)
+      tilt (>= 1.2.2, < 2.0)
+    tilt (1.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  compass
+  haml
+  rack-coffee
+  sass
+  sinatra
