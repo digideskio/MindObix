@@ -2,183 +2,97 @@ body {
 	a {
 		text-decoration: none;
 	}
-	font-family: verdana,arial,tahoma,sans-serif;
+	font-family: 'Trebuchet MS',verdana,arial,tahoma,sans-serif;
 	font-size:13px;
 }
 
 h1,h2,h3,h4,div,p,td,span {
-	font-family: verdana,arial,tahoma,sans-serif;
+	font-family: 'Trebuchet MS',verdana,arial,tahoma,sans-serif;
 	
 }
-
-.para {
-	padding-left:55px;
-	padding-right:30px;
-	font-size:13px;
-
-}
-.para-from {
-	padding-top:15px;
-	padding-left:35px;
-	padding-right:30px;
-	font-size:13px;
-	font-style:italic;
-	text-align:left;
-}
-.para-from1 {
-	padding-top:15px;
-	padding-left:55px;
-	padding-right:30px;
-	font-size:13px;
-	font-style:italic;
-	text-align:left;
-}
-.section {
-    padding-top:15px;
-    padding-bottom:10px;
-	padding-left:55px;
-	padding-right:30px;
-	font-size:17px;
-	font-weight:normal;
-}
-
-.sub-section {
-  
-    padding-bottom:10px;
-	padding-left:55px;
-	padding-right:30px;
-	font-size:13px;
-	font-weight:normal;
-}
-.sub-section1 {
-    padding-top:10px;
-    padding-bottom:10px;
-	padding-left:55px;
-	padding-right:30px;
-	font-size:13px;
-	font-weight:normal;
-}
-
+/* LAYOUT */
 .container {
-	width: 960px;
-	margin: 0 auto;
-    background-color:#000000;
+	margin:0 auto;
+	overflow:hidden;
+	width:987px;
 }
 
-.dark {
-    background: #2F2F2F;
-    color: #7F7F7F;
-}
-.light {
-    background: #EEEEEE;
-    color: #2F2F2F;
+#globalheader { 
+
+	background:#707070;
+	background:
+		-o-linear-gradient(top, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, .45) 100%),
+		-o-linear-gradient(left, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) .2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, .2) 100%),
+		-o-linear-gradient(bottom, #0088f0 0, #0f97ff 100%)
+	;
+	background:
+		-moz-linear-gradient(top, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, .45) 100%),
+		-moz-linear-gradient(left, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) .2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, .2) 100%),
+		-moz-linear-gradient(bottom, #0088f0 0, #0f97ff 100%)
+	;
+	background:
+		-webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))),
+		-webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))),
+		-webkit-gradient(linear, 0 100%, 0 0, from(#0088f0), color-stop(0.5, #0f97ff))
+	;
+	width:992px;
+	height:36px;
+	color:#FFFFFF;
+	clear:both;
+	margin-top:10px;
+		
 }
 
-#divWinSummary {
-	font-size:20px;
-	font-weight:bold;
-	
-}
-#divUpcomingFight {
-	font-size:22px;
-	font-style:italic;
-	color: #DAA520;
-	padding-top:35px;
-	font-family:'Times New Roman';
-	cursor:pointer;
-	
-}
-
-#divVs {
+#divTitle {
+	float:left;
+	color:#FFFFFF;
+	font-weight:normal;
+	font-family: 'Trebuchet MS';
 	font-size:18px;
-	color: #FFFFFF;
-	font-style:italic;
-	padding-top:5px;
-	font-family:'Times New Roman';
+	height:29px;
+	padding-top:7px;
+	margin-left:30px;
+	padding-right:30px;
+	border-right: solid 1px #b5b5b5;
 }
 
-#divUpcomingEvent {
-	font-size:16px;
-	font-family:'Times New Roman';
-	color: #FFFFFF;
+#iconiLoveMyABCs {
+	float:left;
+	background-image:url('/img/ilovemyabcs-logo-32px.png');
+	background-repeat:no-repeat;
+	background-position-x:10px;
+	width:100px;
+	height:25px;
+	color:#FFFFFF;
 	padding-top:10px;
-	padding-bottom:35px;
+	padding-left:50px;
+	border-right: solid 1px #b5b5b5;
+	cursor:pointer;
 }
 
-
-#tblRecord {
-	
-	padding-left:30px;
+#iconiDropCopy {
+	float:left;
+	background-image:url('/img/idropcopy-white-32px.png');
+	background-repeat:no-repeat;
+	background-position-x:10px;
+	width:80px;
+	height:25px;
+	color:#FFFFFF;
+	padding-top:10px;
+	padding-left:48px;
+	border-right: solid 1px #b5b5b5;
+	cursor:pointer;
 }
 
-#tblRecord  .header td { 
-	background-color:#FFFFFF; 
-	padding:4px;
-	color: #2D2D2D;  
-}
-#tblRecord .data td {  
-	color: #FFFFFF;  
+.appIconText {
+	float:left;
+	color:#FFFFFF;
 	font-weight:normal;
-	padding:4px;
-	border: solid 1px #FFFFFF;
-}
-#tblRecord .data1 td {  
-	color: #DAA520;  
-	font-weight:normal;
-	padding:4px;
-	border: solid 1px #FFFFFF;
+	font-family: 'Trebuchet MS';
+	font-size:14px;
+	cursor:pointer;	
 }
 
-#divLeftNavBg {
-    position:absolute; 
-    padding-top:20px;
-    width:30%;
-    min-width: 30%;
-    width:auto !important;
-    min-height: 100%;
-    height:auto !important;
-    height:100%;
-    float:left;
-    color:#FFF;
-    text-align:center;
-    
-    /* Fallback for web browsers that doesn't support RGBa */
-	background: rgb(45, 45, 45);
-
-	/* RGBa with 0.65 opacity */
-	background: rgba(45, 45, 45, 0.65);
-
-	/* For IE 5.5 - 7*/
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-
-	/* For IE 8*/
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
-}
-
-#divContentBg {
-    position:absolute; 
-    padding-left:20px;
-    padding-top:20px;
-    left:30%;
-    width:70%;
-    min-width: 70%;
-    width:auto !important;
-    min-height: 100%;
-    height:auto !important;
-    height:100%;
-    float:left;
-    color:#FFF;
-    text-align:left;
-    
-    /* Fallback for web browsers that doesn't support RGBa */
-	background: rgb(45, 45, 45);
-
-	/* RGBa with 0.65 opacity */
-	background: rgba(45, 45, 45, 0.90);
-
-	/* For IE 5.5 - 7*/
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-
-	/* For IE 8*/
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+.appIconBg {
+	background-color:#474747;
 }
