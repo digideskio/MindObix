@@ -10,13 +10,17 @@
       %img{:alt => "iDropCopy for your iMac", :border => "0", :src => "/img/idropcopy-for-your-imac.png"}/
     %li
       %img{:alt => "iDropCopy for you iPod Touch", :border => "0", :src => "/img/idropcopy-for-your-ipodtouch.png"}/
+.gray-box
+  %img{:alt => "idropcopy link", :border => "0", :src => "/img/idropcopy-copy-link.png"}/
+.gray-box
+  %img{:alt => "idropcopy code snippet", :border => "0", :src => "/img/idropcopy-code-snippet.png"}/ 
 :plain
   <script type="text/javascript">
   $(window).load(function(){
     $('.flexslider').flexslider({
       animation: "fade",
-      slideshowSpeed: 5000,          
-      animationSpeed: 1000, 
+      slideshowSpeed: 7000,          
+      animationSpeed: 1250, 
       controlNav: false,     
       directionNav: false, 
       pauseOnAction: true,
@@ -24,5 +28,7 @@
       start: function(slider) {
       }
     });   
+    $('#iconiDropCopy').attr("class", "appIconText appIconBg");
+    $("#iconiDropCopy").attr("onmouseout","this.className='appIconText appIconBg';");
   });
   </script>

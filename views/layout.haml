@@ -10,13 +10,13 @@
     %script{:defer => "", :src => "/js/jquery.flexslider.js"}
     %script{:type => "text/javascript", :src => "/js/app.js"}
   %body
+    #globalheader
+      #divTitle 
+        %a{:href => "/"} MindObix
+      #iconiDropCopy.appIconText{:onclick => "location.href=\"/idropcopy\";",:onmouseout => "this.className='appIconText';", :onmouseover => "this.className='appIconText appIconBg';"} iDropCopy
+      #iconiLoveMyABCs.appIconText{:onclick => "location.href=\"/ilovemyabcs\";",:onmouseout => "this.className='appIconText';", :onmouseover => "this.className='appIconText appIconBg';"} iLoveMyABCs
     .container
       .inner-container
-        #globalheader
-          #divTitle 
-            %a{:href => "/"} MindObix
-          #iconiDropCopy.appIconText{:onclick => "location.href=\"/idropcopy\";",:onmouseout => "this.className='appIconText';", :onmouseover => "this.className='appIconText appIconBg';"} iDropCopy
-          #iconiLoveMyABCs.appIconText{:onclick => "location.href=\"/ilovemyabcs\";",:onmouseout => "this.className='appIconText';", :onmouseover => "this.className='appIconText appIconBg';"} iLoveMyABCs
         =yield
         %footer#globalfooter
           %div
