@@ -11,9 +11,19 @@
     %script{:type => "text/javascript", :src => "/js/app.js"}
   %body
     .container
-      #globalheader
-        #divTitle MindObix
-        #iconiDropCopy.appIconText{:onmouseout => "this.className='appIconText';", :onmouseover => "this.className='appIconText appIconBg';"} iDropCopy
-        #iconiLoveMyABCs.appIconText{:onmouseout => "this.className='appIconText';", :onmouseover => "this.className='appIconText appIconBg';"} iLoveMyABCs
-      =yield
+      .inner-container
+        #globalheader
+          #divTitle MindObix
+          #iconiDropCopy.appIconText{:onmouseout => "this.className='appIconText';", :onmouseover => "this.className='appIconText appIconBg';"} iDropCopy
+          #iconiLoveMyABCs.appIconText{:onmouseout => "this.className='appIconText';", :onmouseover => "this.className='appIconText appIconBg';"} iLoveMyABCs
+        =yield
+        %footer#globalfooter
+          %div
+            %ul.piped
+              %li
+                %a.first{:href => "/"} MindObix
+              %li
+                %a{:href => "/idropcopy"}iDropCopy
+              %li
+                %a{:href => "/ilovemyabcs"}iLoveMyABCs
     = haml :analytics, :layout => false
