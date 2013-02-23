@@ -13,9 +13,10 @@
     .container
       .inner-container
         #globalheader
-          #divTitle MindObix
-          #iconiDropCopy.appIconText{:onmouseout => "this.className='appIconText';", :onmouseover => "this.className='appIconText appIconBg';"} iDropCopy
-          #iconiLoveMyABCs.appIconText{:onmouseout => "this.className='appIconText';", :onmouseover => "this.className='appIconText appIconBg';"} iLoveMyABCs
+          #divTitle 
+            %a{:href => "/"} MindObix
+          #iconiDropCopy.appIconText{:onclick => "location.href=\"/idropcopy\";",:onmouseout => "this.className='appIconText';", :onmouseover => "this.className='appIconText appIconBg';"} iDropCopy
+          #iconiLoveMyABCs.appIconText{:onclick => "location.href=\"/ilovemyabcs\";",:onmouseout => "this.className='appIconText';", :onmouseover => "this.className='appIconText appIconBg';"} iLoveMyABCs
         =yield
         %footer#globalfooter
           %div

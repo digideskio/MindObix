@@ -52,7 +52,7 @@ h1,h2,h3,h4,div,p,td,span {
 	color:#FFFFFF;
 	clear:both;
 	
-	margin-bottom:10px;
+	/*margin-bottom:10px;*/
 		
 }
 
@@ -82,6 +82,8 @@ h1,h2,h3,h4,div,p,td,span {
 	padding-right:30px;
 	border-right: solid 1px #b5b5b5;
 }
+
+#divTitle a {color:#FFFFFF; text-decoration:none;}
 
 #iconiLoveMyABCs {
 	float:left;

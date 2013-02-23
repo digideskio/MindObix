@@ -1,0 +1,28 @@
+.flexslider
+  %ul.slides
+    %li
+      %img{:alt => "iDropCopy for your iPhone", :border => "0", :src => "/img/idropcopy-for-your-iphone.png"}/
+    %li
+      %img{:alt => "iDropCopy for your MacBook Air", :border => "0", :src => "/img/idropcopy-for-your-macbookair.png"}/
+    %li
+      %img{:alt => "iDropCopy for your iPad", :border => "0", :src => "/img/idropcopy-for-your-ipad.png"}/
+    %li
+      %img{:alt => "iDropCopy for your iMac", :border => "0", :src => "/img/idropcopy-for-your-imac.png"}/
+    %li
+      %img{:alt => "iDropCopy for you iPod Touch", :border => "0", :src => "/img/idropcopy-for-your-ipodtouch.png"}/
+:plain
+  <script type="text/javascript">
+  $(window).load(function(){
+    $('.flexslider').flexslider({
+      animation: "fade",
+      slideshowSpeed: 5000,          
+      animationSpeed: 1000, 
+      controlNav: false,     
+      directionNav: false, 
+      pauseOnAction: true,
+      pauseOnHover: true,  
+      start: function(slider) {
+      }
+    });   
+  });
+  </script>
