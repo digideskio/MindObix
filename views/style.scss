@@ -2,19 +2,27 @@ body {
 	a {
 		text-decoration: none;
 	}
-	font-family: 'Trebuchet MS',verdana,arial,tahoma,sans-serif;
+	
+	font: 12px/18px "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
+	color: #333;
 	font-size:13px;
 	background: #f2f2f2;
 	margin: 0px;
 	margin-top: 10px;
+	margin-bottom:30px;
 	padding: 0px;
 	
 }
 
 h1,h2,h3,h4,div,p,td,span {
-	font-family: 'Trebuchet MS',verdana,arial,tahoma,sans-serif;
+	font: 12px/18px "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
+	color: #333;
 	
 }
+
+a { color: #4c9fed; }
+a:link, a:visited, a:active { text-decoration: none; }
+a:hover { text-decoration: underline; }
 /* LAYOUT */
 .container {
 	margin:0px auto;
@@ -29,8 +37,7 @@ h1,h2,h3,h4,div,p,td,span {
 }
 
 .inner-container {
-	margin: 0px;
-	padding: 0px;
+	
 	margin:0px auto;
 	overflow:hidden;
 	width:940px;
@@ -59,10 +66,40 @@ h1,h2,h3,h4,div,p,td,span {
 		
 }
 .gray-box {
-	background: url(/img/section-divider.jpg) no-repeat 50% 100%, url(/img/section-divider.jpg) no-repeat 50% 0;
-	background-size: 940px 90px, 940px 92px;
-	
+	background: url(/img/section-divider.png) no-repeat;
 }
+
+#idropcopy-listview-ios {
+	background: url(/img/idropcopy-listview-ios-long.png) no-repeat;
+	width:940px;
+	height:1440px;
+	padding-top:155px;
+	padding-left:45px;
+}
+#ios-app-store {
+
+	padding-top:20px;
+
+}
+
+#idropcopy-listview-ios .header {
+	color: #2d2d2d;
+	font-size:16px;
+	font-weight:bold;
+	line-height:18px;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:450px;
+}
+
+#idropcopy-listview-ios .data {
+	color: #333333;
+	font-size:14px;
+	line-height:22px;
+	padding-bottom:10px;
+	width:450px;
+}
+
 /*--- Global Footer ---*/
 #globalfooter { font-size: 12px; margin: 10px auto; padding-top:25px; text-align: center !important; }
 #globalfooter a { color: #4c9fed; }
@@ -84,7 +121,7 @@ h1,h2,h3,h4,div,p,td,span {
 	font-family: 'Trebuchet MS';
 	font-size:18px;
 	height:29px;
-	padding-top:7px;
+	padding-top:9px;
 	margin-left:30px;
 	padding-right:30px;
 	border-right: solid 1px #b5b5b5;
