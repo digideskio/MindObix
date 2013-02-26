@@ -76,12 +76,6 @@ a:hover { text-decoration: underline; }
 	padding-top:155px;
 	padding-left:45px;
 }
-#ios-app-store {
-
-	padding-top:20px;
-
-}
-
 #idropcopy-listview-ios .header {
 	color: #2d2d2d;
 	font-size:16px;
@@ -98,6 +92,45 @@ a:hover { text-decoration: underline; }
 	line-height:22px;
 	padding-bottom:10px;
 	width:450px;
+}
+
+#idropcopy-listview-osx {
+	background: url(/img/idropcopy-listview-osx-long.png) no-repeat;
+	width:940px;
+	height:1600px;
+	padding-top:155px;
+	padding-left:25px;
+}
+
+
+#idropcopy-listview-osx .header {
+	color: #2d2d2d;
+	font-size:16px;
+	font-weight:bold;
+	line-height:18px;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:475px;
+}
+
+#idropcopy-listview-osx .data {
+	color: #333333;
+	font-size:14px;
+	line-height:22px;
+	padding-bottom:10px;
+	width:475px;
+}
+
+
+.ios-app-store {
+
+	padding-top:20px;
+
+}
+.osx-app-store {
+
+	padding-top:20px;
+
 }
 
 /*--- Global Footer ---*/
