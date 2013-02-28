@@ -1,0 +1,16 @@
+!!! 5
+%html{html_attrs('en-en')}
+  %head
+    %meta{:'http-equiv' => "Content-Type", :content => "text/html; charset=utf-8"}
+    %meta{:name => "lang", :content => "en"}
+    %title MindObix Productivity & Educational Apps
+    %link{:href => "/style.css", :media => "all", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "/css/flexslider.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/   
+    %script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"}
+    %script{:defer => "", :src => "/js/jquery.flexslider.js"}
+    %script{:type => "text/javascript", :src => "/js/app.js"}
+  %body
+    .container
+      .inner-container
+        =yield
+    = haml :analytics, :layout => false
