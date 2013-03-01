@@ -19,9 +19,10 @@ get '/idropcopy/help/:platform' do
   haml :'idropcopy/help/help', :locals => {:link => @link, :platform => @platform}
 end
 
-get '/idropcopy/p/help' do
+get '/idropcopy/p/help/:platform' do
   @link = '/idropcopy/p/help'
-  haml :'idropcopy/help/help', {:layout => :plainlayout}, :locals => {:link => @link}
+   @platform = params[:platform]
+  haml :'idropcopy/help/help', {:layout => :plainlayout}, :locals => {:link => @link, :platform => @platform}
 end
 
 
