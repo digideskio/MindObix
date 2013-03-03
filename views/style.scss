@@ -3,7 +3,7 @@ body {
 		text-decoration: none;
 	}
 	
-	font: 13px/18px "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
+	font: 13px  "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
 	color: #333;
 	font-size:13px;
 	background: #f2f2f2;
@@ -15,12 +15,12 @@ body {
 }
 
 h1,h2,h3,h4,div,p,td,span {
-	font: 13px/18px "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
+	font: 13px "Trebuchet MS", Helvetica, Arial, Verdana, sans-serif;
 	color: #333;
 	
 }
 
-a { color: #4c9fed; }
+a { color: #4c9fed; font-size:14px;}
 a:link, a:visited, a:active { text-decoration: none; }
 a:hover { text-decoration: underline; }
 
@@ -71,7 +71,7 @@ a:hover { text-decoration: underline; }
 }
 
 #idropcopy-listview-ios {
-	background: url(/img/idropcopy-listview-ios-long.png) no-repeat;
+	background: url(/img/idropcopy/idropcopy-listview-ios-long.png) no-repeat;
 	width:940px;
 	height:1440px;
 	padding-top:155px;
@@ -97,7 +97,7 @@ a:hover { text-decoration: underline; }
 }
 
 #idropcopy-listview-osx {
-	background: url(/img/idropcopy-listview-osx-long.png) no-repeat;
+	background: url(/img/idropcopy/idropcopy-listview-osx-long.png) no-repeat;
 	width:940px;
 	height:1700px;
 	padding-top:155px;
@@ -124,19 +124,80 @@ a:hover { text-decoration: underline; }
 }
 
 
-.ios-app-store {
-
-	padding-top:20px;
-	width:200px;
-	text-align:center;
-
+#ilovemyabcs-listview-ios {
+	background: url(/img/ilovemyabcs/ilovemyabcs-ios-1440h.png) no-repeat;
+	width:940px;
+	height:1540px;
+	padding-top:155px;
+	padding-left:45px;
+	padding-bottom:100px;
 }
-.osx-app-store {
 
+#ilovemyabcs-listview-ios .header {
+	color: #2d2d2d;
+	font-size:16px;
+	font-weight:bold;
+	line-height:18px;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:425px;
+}
+
+#ilovemyabcs-listview-ios .data {
+	color: #333333;
+	font-size:14px;
+	line-height:22px;
+	padding-bottom:10px;
+	width:425px;
+}
+
+#ilovemyabcs-listview-android {
+	background: url(/img/ilovemyabcs/ilovemyabcs-android-1440h.png) no-repeat;
+	width:940px;
+	height:1540px;
+	padding-top:155px;
+	padding-left:25px;
+	padding-bottom:100px;
+}
+
+#ilovemyabcs-listview-android .header {
+	color: #2d2d2d;
+	font-size:16px;
+	font-weight:bold;
+	line-height:18px;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:425px;
+}
+
+#ilovemyabcs-listview-android .data {
+	color: #333333;
+	font-size:14px;
+	line-height:22px;
+	padding-bottom:10px;
+	width:425px;
+}
+
+.ios-app-store {
 	padding-top:20px;
 	width:200px;
 	text-align:center;
+}
 
+.osx-app-store {
+	padding-top:20px;
+	width:200px;
+	text-align:center;
+}
+
+.play-app-store {
+	
+	text-align:center;
+}
+
+
+.amazon-app-store {
+	text-align:center;
 }
 
 
@@ -179,14 +240,13 @@ a:hover { text-decoration: underline; }
 #platform a { font-size: 14px; color: #4c9fed; }
 #platform ul {list-style: none outside;margin:0px;padding:0px;}
 #platform ul li {font-size: 14px;display:inline;}
-#platform ul.piped a { padding: 0 0 0 10px; margin-left: 10px; border-left: 1px solid #4c9fed; }
+#platform ul li.piped a  { padding: 0 0 0 10px; margin-left: 10px; border-left: 1px solid #4c9fed; }
+#platform ul li.piped span  { padding: 0 0 0 10px; margin-left: 10px; border-left: 1px solid #4c9fed; }
+
 #platform a:link, a:visited, a:active { text-decoration: none; }
 #platform a:hover { text-decoration: underline; }
-#platform .piped a.first {
-	border-left: 0 !important;
-	padding-left: 0;
-	margin-left: 0 !important;
-}
+
+
 
 /*--- Global Footer ---*/
 #globalfooter { font-size: 12px; margin: 10px auto; padding-top:25px; text-align: center !important; }
@@ -196,7 +256,7 @@ a:hover { text-decoration: underline; }
 #globalfooter ul.piped a { padding: 0 0 0 10px; margin-left: 10px; border-left: 1px solid #d0d0d0; }
 #globalfooter a:link, a:visited, a:active { text-decoration: none; }
 #globalfooter a:hover { text-decoration: underline; }
-.piped a.first {
+#globalfooter .piped a.first {
 	border-left: 0 !important;
 	padding-left: 0;
 	margin-left: 0 !important;
@@ -214,11 +274,11 @@ a:hover { text-decoration: underline; }
 	border-right: solid 1px #b5b5b5;
 }
 
-#divTitle a {color:#FFFFFF; text-decoration:none;}
+#divTitle a {color:#FFFFFF; text-decoration:none;font-size:18px;}
 
 #iconiLoveMyABCs {
 	float:left;
-	background-image:url('/img/ilovemyabcs-logo-32px.png');
+	background-image:url('/img/ilovemyabcs/ilovemyabcs-logo-32px.png');
 	background-repeat:no-repeat;
 	background-position-x:10px;
 	width:100px;
@@ -232,7 +292,7 @@ a:hover { text-decoration: underline; }
 
 #iconiDropCopy {
 	float:left;
-	background-image:url('/img/idropcopy-white-32px.png');
+	background-image:url('/img/idropcopy/idropcopy-white-32px.png');
 	background-repeat:no-repeat;
 	background-position-x:10px;
 	width:80px;
