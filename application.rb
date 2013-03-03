@@ -32,10 +32,10 @@ get '/idropcopy/help/:platform' do
   haml :'idropcopy/help/help', :locals => {:link => @link, :platform => @platform}
 end
 
-get '/idropcopy/p/help/:platform' do
-  @link = '/idropcopy/p/help'
+get '/idropcopy/m/help/:platform' do
+  @link = '/idropcopy/m/help'
   @platform = params[:platform]
-  haml :'idropcopy/help/help', {:layout => :plainlayout}, :locals => {:link => @link, :platform => @platform}
+  haml :'idropcopy/help/help', {:layout => :mobilelayout}, :locals => {:link => @link, :platform => @platform}
 end
 
 
@@ -44,10 +44,10 @@ get '/idropcopy/help/login/iphone' do
   haml :'idropcopy/help/login/iphone', :locals => {:link => @link}
 end
 
-get '/idropcopy/p/help/login/iphone' do
-  @link = '/idropcopy/p/help'
+get '/idropcopy/m/help/login/iphone' do
+  @link = '/idropcopy/m/help'
 
-  haml :'idropcopy/help/login/iphone', {:layout => :plainlayout}, :locals => {:link => @link}
+  haml :'idropcopy/help/login/iphone', {:layout => :mobilelayout}, :locals => {:link => @link}
 end
 
 get '/idropcopy/help/login/ipad' do
@@ -55,10 +55,10 @@ get '/idropcopy/help/login/ipad' do
   haml :'idropcopy/help/login/ipad', :locals => {:link => @link}
 end
 
-get '/idropcopy/p/help/login/ipad' do
-  @link = '/idropcopy/p/help'
+get '/idropcopy/m/help/login/ipad' do
+  @link = '/idropcopy/m/help'
 
-  haml :'idropcopy/help/login/ipad', {:layout => :plainlayout}, :locals => {:link => @link}
+  haml :'idropcopy/help/login/ipad', {:layout => :mobilelayout}, :locals => {:link => @link}
 end
 
 
