@@ -50,6 +50,12 @@ get '/idropcopy/m/help/login/iphone' do
   haml :'idropcopy/help/login/iphone', {:layout => :mobilelayout}, :locals => {:link => @link}
 end
 
+get '/idropcopy/m/help/login/iphone1' do
+  @link = '/idropcopy/m/help'
+
+  haml :'idropcopy/help/login/iphone1', {:layout => :mobilelayout}, :locals => {:link => @link}
+end
+
 get '/idropcopy/help/login/ipad' do
   @link = '/idropcopy/help'
   haml :'idropcopy/help/login/ipad', :locals => {:link => @link}
