@@ -327,6 +327,34 @@ a:hover { text-decoration: underline; }
 	cursor:pointer;
 }
 
+#iconiDropPwd {
+	float:left;
+	background-image:url('/img/idroppwd/iDropPwd-32.png');
+	background-repeat:no-repeat;
+	background-position-x:10px;
+	width:80px;
+	height:25px;
+	color:#FFFFFF;
+	padding-top:10px;
+	padding-left:48px;
+	border-right: solid 1px #b5b5b5;
+	cursor:pointer;
+}
+
+#iconmyVoiceDrop {
+	float:left;
+	background-image:url('/img/myvoicedrop/myVoiceDrop-32.png');
+	background-repeat:no-repeat;
+	background-position-x:10px;
+	width:100px;
+	height:25px;
+	color:#FFFFFF;
+	padding-top:10px;
+	padding-left:48px;
+	border-right: solid 1px #b5b5b5;
+	cursor:pointer;
+}
+
 .appIconText {
 	float:left;
 	color:#FFFFFF;

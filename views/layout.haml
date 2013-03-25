@@ -16,6 +16,8 @@
       #divTitle 
         %a{:href => "/"} MindObix
       #iconiDropCopy.appIconText{:onclick => "location.href=\"/idropcopy\";",:onmouseout => "this.className='appIconText';", :onmouseover => "this.className='appIconText appIconBg';"} iDropCopy
+      #iconiDropPwd.appIconText{:onclick => "location.href=\"/idroppwd\";",:onmouseout => "this.className='appIconText';", :onmouseover => "this.className='appIconText appIconBg';"} iDropPwd
+      #iconmyVoiceDrop.appIconText{:onclick => "location.href=\"/myvoicedrop\";",:onmouseout => "this.className='appIconText';", :onmouseover => "this.className='appIconText appIconBg';"} myVoiceDrop
       #iconiLoveMyABCs.appIconText{:onclick => "location.href=\"/ilovemyabcs\";",:onmouseout => "this.className='appIconText';", :onmouseover => "this.className='appIconText appIconBg';"} iLoveMyABCs
     .container
       .inner-container
@@ -27,6 +29,10 @@
                 %a.first{:href => "/"} MindObix
               %li
                 %a{:href => "/idropcopy"}iDropCopy
+              %li
+                %a{:href => "/idroppwd"}iDropPwd
+              %li
+                %a{:href => "/myvoicedrop"}myVoiceDrop
               %li
                 %a{:href => "/ilovemyabcs"}iLoveMyABCs
     = haml :analytics, :layout => false

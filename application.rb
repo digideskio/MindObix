@@ -26,6 +26,20 @@ get '/ilovemyabcs' do
   haml :ilovemyabcs
 end
 
+get '/idroppwd' do
+  @metaTitle = 'MindObix - iDropPwd App - Drop your passwords with confidence!'
+  @metaDescr = 'DropPwd is secure, reliable, simple and inexpensive password management app to all the other ones out there. It is beautifully designed and you are going to love managing your passwords. iDropPwd is built on top of Dropbox so that you can manage your passwords on your iPhone, iPad, iPad Mini and iPod Touch. '
+  @metaKeywords = 'Password, Password Management, Password Manager, Pass, iPassword, Security, Secure, Protection, Key Password, KeyPass, iSecurity, Secured Password'
+  haml :idroppwd
+end
+
+get '/myvoicedrop' do
+  @metaTitle = 'MindObix - myVoiceDrop App - Create Podcasts, VoiceGram & Voice Overs and edit it on your MAC/PC!'
+  @metaDescr = 'myVoiceDrop turns your iPhone, iPod Touch & iPad into your personal podcast and voice gram to share with others. myVoiceDrop uses your Dropbox account to share your recording with others and also makes it easier to access your recordings from your Mac and PC for editing with other applications.'
+  @metaKeywords = 'Recording, Podcasts, Voice Recording, Voice Memo, iVoice, Drop Voice, Voice Dropbox, Audio Dropbox, AudioGram, VoiceGram, Cloud Audio, Cloud Recording, Cloud Voice, iAudio'
+  haml :myvoicedrop
+end
+
 get '/idropcopy/help/:platform' do
   @link = '/idropcopy/help'
   @platform = params[:platform]
