@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'haml'
+require 'compass'
 require 'sass'
 require 'coffee-script'
 

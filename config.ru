@@ -1,8 +1,3 @@
-require 'sinatra'
-require 'haml'
-require 'sass'
-require 'coffee-script'
-
-require './application'
+require "./application"
 
 run Sinatra::Application
