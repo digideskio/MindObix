@@ -74,7 +74,7 @@ class App < Sinatra::Base
   	haml :'idropcopy/help'
 	end
 	
-	get '/idropcopy/m/help/:name' do
+	get '/idropcopy/m/help/*' do
   	@metaTitle = 'iDropCopy Help'
   	@metaDescr = 'iDropCopy Help'
   	@metaKeywords = 'iDropCopy Help, iDropCopy Support, iDropCopy MAC OSX Help, iDrop Copy iOS help, i drop copy, dropbox copy, cloud copy, cloud clipboard, drop clipboard, copy paste cloud, copy paste sharing, clipboard sharing, dropbox idropcopy, dropbox copy paste'
