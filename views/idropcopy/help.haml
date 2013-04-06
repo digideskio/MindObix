@@ -1,0 +1,82 @@
+.row.pad-top-20{:style => "padding-left: 20px;"}
+  .small-12
+    %a{:href => "/iDropCopy", :title => "Don't Just Copy! iDropCopy"}
+      %img{:src => "/images/idropcopy/idropcopy-170x170.png", :style => "margin-top:-8px;vertical-align:middle;width:48px;height:48px"} 
+      %span{:style => "font-size:18px; color: #666"}
+        iDropCopy Help
+.row
+  .small-12{:style => "padding: 20px;"}
+    .section-container.accordion{"data-section" => "accordion"}
+      %section.section.active
+        .title
+          %a{:href => "#"} Login to iDropcopy via Dropbox
+        .content.pad-left-right-30.circle1
+          %ul
+            %li 
+              Touch the "Link to My Dropbox Account" button to connect to your Dropbox account.
+            %li 
+              If you have your Dropbox app already loaded simply touch or click the green "Allow" button to establish iDropCopy link.
+            %li 
+              If you do not have Dropbox app already loaded please sign in or create a new Dropbox account for free and then link to iDropCopy app.
+          
+      %section.section 
+        .title
+          %a{:href => "#"} Copy data between your devices
+        .content.pad-left-right-30.circle1
+          %ul
+            %li 
+              On your iOS device (iPhone, iPad or iPod touch) simply copy the normal way a link or text from an email etc. then touch the iDropCopy app icon to copy the data.
+              Then any of the devices which have iDropCopy app installed simply click the iDropCopy App icon or touch the refresh button on the bottom tab bar.
+              
+            %li 
+              On your Mac OSX (MacBook, iMac or MAC Mini) if  the sync interval option is not set to manual then it will automatically copy from your clipboard once you copy data from any of my Mac OSX applications.
+              Also it refresh the copied data from other devices with sync interval that you have set.  If you have the sync interval set to manual then you can copy and refresh by clicking the refresh icon on the top bar next to the iDropCopy Title.
+              
+      %section.section 
+        .title
+          %a{:href => "#"} Refresh iDropCopy list view
+        .content.pad-left-right-30.circle1
+          %ul
+            %li 
+              On your iOS device (iPhone, iPad or iPod touch) you can refresh by simply touching the iDropCopy app icon and also by touching the refresh button on the bottom tab bar.   
+            %li 
+              On your Mac OSX (MacBook, iMac or MAC Mini) if the sync interval option is set to manual then then you can refresh the clipboard by clicking the refresh icon on the top bar next to the iDropCopy Title.
+              If the sync interval is set to refresh in certain time the it will refresh automatically and refresh icon is hidden.
+      %section.section 
+        .title
+          %a{:href => "#"} Copy an item to clipboard
+        .content
+          %p
+            If the "Auto Copy to Clipboard" setting is on then the last copied data from your iOS device(s) or MAC OSX computers(s) will be automatically copied to their clipboards. Please note that for the iOS devices you still have to touch the iDropCopy app icon. 
+
+      %section.section 
+        .title
+          %a{:href => "#"} Change max iDropCopy items
+        .content
+          %p You can set the number of items (25, 50 or 100) for all iOS devices and MAC OSX computers that you want to copy into your iDropCopy clipboard.  
+      %section.section 
+        .title
+          %a{:href => "#"} iDropCopy sound on/off
+        .content.pad-left-right-30.circle1
+          %p You can turn on or off the iDropCopy sound when a new iDropCopied item shows into your clipboard.
+      %section.section 
+        .title
+          %a{:href => "#"} Auto open copied link to browser
+        .content
+          %p iDropCopy recognizes if a copied item is a link if it is you can set it to open automatically into your default browser and also copies the link into the clipboard.
+          
+      %section.section 
+        .title
+          %a{:href => "#"} Notification preferences
+        .content
+          %p You can turn on or off notifications when a new iDropCopy item arrives on your iOS device or MAC OSX computer.
+      %section.section 
+        .title
+          %a{:href => "#"} Clear all iDropCopy items
+        .content
+          %p You can touch or click the trash icon to clear all drop copied items.  
+      %section.section 
+        .title
+          %a{:href => "#"} Unlink iDropCopy from Dropbox
+        .content
+          %p You can unlink your iDropCopy app from any iOS device or MAC OSX computer by touching or clicking the red button "Erase All Data & Unlink iDropCopy".

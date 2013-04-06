@@ -1,28 +1,105 @@
-.flexslider
-  %ul.slides
-    %li
-      %img{:alt => "idropcopy dont just copy", :border => "0", :src => "/img/idropcopy/idropcopy-dont-just-copy.png"}/
-    %li
-      %img{:alt => "ilovemyabcs presidents", :border => "0", :src => "/img/ilovemyabcs/ilovemyabcs-presidents.jpg"}/
-    %li
-      %img{:alt => "idropcopy link", :border => "0", :src => "/img/idropcopy/idropcopy-copy-link.png"}/
-    %li
-      %img{:alt => "ilovemyabcs", :border => "0", :src => "/img/ilovemyabcs/ilovemyabcs.png"}/
-    %li
-      %img{:alt => "idropcopy code snippet", :border => "0", :src => "/img/idropcopy/idropcopy-code-snippet.png"}/
- 
-:plain
-  <script type="text/javascript">
-  $(window).load(function(){
-    $('.flexslider').flexslider({
-      animation: "slide",
-      slideshowSpeed: 10000,          
-      animationSpeed: 1000,
-      directionNav: false, 
-      pauseOnAction: true,
-      pauseOnHover: true,   
-      start: function(slider) {
-      }
-    });   
-  });
-  </script>
+.row
+  .large-12.columns{:style => "padding:0px;margin:0px;"}
+    %ul{"data-options" => "timer_speed: 6000;animation_speed: 2500;stack_on_small:true;bullets:false;slide_number_class:orbit-slide-number-none;next_class:orbit-next-none;prev_class:orbit-prev-none;", "data-orbit" => ""}
+      %li
+        %a{:href => "/iDropPwd"} 
+          %img{:alt => "Secure+Dropbox+Pennies=iDropPwd", :border => "0", :src => "/images/idroppwd/idroppwd-confidence-1000x525.png"}/
+      %li
+        %a{:href => "/iDropCopy"} 
+          %img{:alt => "iDropCopy Don't Just Copy", :border => "0", :src => "/images/idropcopy/idropcopy-dont-just-copy-1000x525.png"}/
+      %li
+        %a{:href => "/myVoiceDrop"} 
+          %img{:alt => "myVoiceDrop - Podcast!", :border => "0", :src => "/images/myvoicedrop/myvoicedrop-podcast-banner-1000x525.png"}/
+      %li
+        %a{:href => "/iLoveMyABCs"} 
+          %img{:src => "/images/ilovemyabcs/ilovemyabcs-fruits-1000x525.png"}/
+      %li
+        %a{:href => "/myVoiceDrop"} 
+          %img{:alt => "myVoiceDrop - Share Your Voice!", :border => "0", :src => "/images/myvoicedrop/myvoicedrop-shareyourvoice-banner-1000x525.png"}/
+      %li
+        %a{:href => "/iDropPwd"} 
+          %img{:alt => "Secure+Dropbox+Pennies=iDropPwd", :border => "0", :src => "/images/idroppwd/idroppwd-secure-dropbox-pennies-1000x525.png"}/
+      %li
+        %a{:href => "/iLoveMyABCs"} 
+          %img{:alt => "ilovemyabcs presidents", :border => "0", :src => "/images/ilovemyabcs/ilovemyabcs-presidents1-1000x525.png"}/
+      %li
+        %a{:href => "/iDropCopy"} 
+          %img{:alt => "iDropCopy Copy Link", :border => "0", :src => "/images/idropcopy/idropcopy-copy-link-1000x525.png"}/
+.row.pad-top-20
+  .large-12.large-12.columns
+    .row
+      .large-6.columns
+        .panel.radius
+          .row
+            .large-4.small-4.columns
+              %a{:href => "/iDropCopy"}
+                %img{:src => "/images/idropcopy/idropcopy-170x170.png", :style => "width:80px;height:80px"}
+              %h6 iDropCopy
+            .large-8.small-8.columns
+              %p
+                Don't just copy! iDropCopy service shares your copied data and links with your Apple iOS devices and Mac OSX  using Dropbox file sharing service.
+                %a{:href => "/iDropCopy"} 
+                  Read More
+              %hr/
+              %a{:href => "http://itunes.apple.com/us/app/idropcopy/id593282822"} 
+                %img{:src => "/images/iosappstore.png", :style => "width:135px;height:45px"}
+              %a{:href => "/iDropCopy"} 
+                %img{:src => "/images/osxappstore-under-review.png", :style => "width:135px;height:45px"}
+
+      .large-6.columns
+        .panel.radius
+          .row
+            .large-4.small-4.columns
+              %a{:href => "/myVoiceDrop"}
+              %img{:src => "/images/myvoicedrop/myvoicedrop-170x170.png", :style => "padding-left:10px;width:90px;height:80px"}
+              %h6 myVoiceDrop
+            .large-8.small-8.columns
+              %p
+                Share Your Voice! myVoiceDrop turns your iPhone, iPod Touch & iPad into your personal podcast and voice gram recorder to share your voice with others.
+                %a{:href => "/myVoiceDrop"} 
+                  Read More
+              %hr/
+              %a{:href => "http://itunes.apple.com/us/app/myvoicedrop/id625987268"} 
+                %img{:src => "/images/iosappstore.png", :style => "width:135px;height:45px"}
+
+.row.pad-top
+  .large-12.columns
+    .row
+      .large-6.columns
+        .panel.radius
+          .row
+            .large-4.small-4.columns
+              %a{:href => "/iDropPwd"}
+                %img{:src => "/images/idroppwd/idroppwd-170x170.png", :style => "width:80px;height:80px"}
+              %h6{:style => "padding-left:2px;"} iDropPwd
+            .large-8.small-8.columns
+              %p 
+                iDropPwd provides secure, always backed up and cloud ready to manage your passwords using iOS devices. 
+                %a{:href => "/iDropPwd"} 
+                  Read More
+              %hr/
+              %a{:href => "http://itunes.apple.com/us/app/idroppwd/id616595285"} 
+                %img{:src => "/images/iosappstore.png", :style => "width:135px;height:45px"}
+              %a{:href => "http://play.google.com/store/apps/details?id=com.mindobix.ilovemyabcs"} 
+                %img{:src => "/images/playappstore.png", :style => "visibility:hidden;width:135px;height:45px"}
+              %a{:href => "http://www.amazon.com/gp/product/B009QSD2MA/ref=mas_pm_ILoveMyABCs"} 
+                %img{:src => "/images/amazonappstore.png", :style => "visibility:hidden;width:135px;height:45px"}
+      .large-6.columns
+        .panel.radius
+          .row
+            .large-4.small-4.columns
+              %a{:href => "/iLoveMyABCs"}
+                %img{:src => "/images/ilovemyabcs/ilovemyabcs-170x170.png", :style => "padding-left:10px;width:90px;height:80px"}
+              %h6 iLoveMyABCs
+            .large-8.small-8.columns
+              %p
+                An amazing way to learn alphabets! ILoveMyABCs is a universal app that runs on iOS and Android phones & tablets.
+                %a{:href => "/iLoveMyABCs"} 
+                  Read More
+              %hr/
+              %a{:href => "http://itunes.apple.com/us/app/ilovemyabcs/id528522152"} 
+                %img{:src => "/images/iosappstore.png", :style => "width:135px;height:45px"}
+              %a{:href => "http://play.google.com/store/apps/details?id=com.mindobix.ilovemyabcs"} 
+                %img{:src => "/images/playappstore.png", :style => "width:135px;height:45px"}
+              %a{:href => "http://www.amazon.com/gp/product/B009QSD2MA/ref=mas_pm_ILoveMyABCs"} 
+                %img{:src => "/images/amazonappstore.png", :style => "width:135px;height:45px"}

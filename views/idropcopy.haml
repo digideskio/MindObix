@@ -1,144 +1,179 @@
-.flexslider
-  %ul.slides
-    %li
-      %img{:alt => "iDropCopy for your iPhone", :border => "0", :src => "/img/idropcopy/idropcopy-for-your-iphone.png"}/
-    %li
-      %img{:alt => "iDropCopy Code Snippet", :border => "0", :src => "/img/idropcopy/idropcopy-code-snippet-600h.png"}/
-    %li
-      %img{:alt => "iDropCopy Copy Link", :border => "0", :src => "/img/idropcopy/idropcopy-copy-link-600h.png"}/
-    %li
-      %img{:alt => "idropcopy simplify your life", :border => "0", :src => "/img/idropcopy/idropcopy-simplify-for-your-life.png"}/
-    %li
-      %img{:alt => "iDropCopy for your MacBook Air", :border => "0", :src => "/img/idropcopy/idropcopy-for-your-macbookair.png"}/
-    %li
-      %img{:alt => "iDropCopy for your iPad", :border => "0", :src => "/img/idropcopy/idropcopy-for-your-ipad.png"}/
-    %li
-      %img{:alt => "iDropCopy for your iMac", :border => "0", :src => "/img/idropcopy/idropcopy-for-your-imac.png"}/
-    %li
-      %img{:alt => "iDropCopy for you iPod Touch", :border => "0", :src => "/img/idropcopy/idropcopy-for-your-ipodtouch.png"}/
-.gray-box
-  #idropcopy-listview-ios
-    .header
-      How to copy between your iOS devices & Macs?
-    .data
-      Copy the normal way you do on your iOS devices (mail, safari, notes, ...) and just touch the iDropCopy app icon will automatically copy to your other devices. With auto copy to clipboard enabled all you have to do is copy an item on one of your device's and iDropCopy service copies that item to other device's clipboard.  There is nothing special you have to do, it works seamlessly without any effort.
-    .header
-      How does iDropCopy service works?
-    .data
-      iDropCopy service is built on top of one of the leading cloud file sharing application provider 
-      = succeed "." do
-        %a{:href => "http://www.dropbox.com"} Dropbox
-      When you copy a text from one of your devices it uses the Dropbox api service to store your copied data (encrypted) on their highly secured and reliable servers.
-    .header
-      How secure and private is your copied data?
-    .data
-      iDropCopy service uses industry standard AES encryption to secure the copied data and does not share or track your copied data with any one or organization.  iDropCopy service follows the 
-      %a{:href => "https://www.dropbox.com/help/category/Security%20and%20Privacy"} Dropbox security and privacy policy.
-    .header
-      How many copied items can be stored?
-    .data
-      iDropCopy service allows you to store 25, 50 or 100 copied items.  For efficiency it tracks for duplicate copied items and ignores them.
-    .header
-      How do I refresh my Drop Copy Clipboard?
-    .data
-      Simply click on the iDropCopy title or logo to refresh the drop copy clipboard.  If you are running iOS 6.0 or greater simply swipe down on the list and it will refresh the list.    
-    .header
-      How are notification handled for newly copied items?
-    .data
-      iDropCopy service plays a unique and distinct water droplet sound when a newly copied item from another device arrives.  It also uses the standard iOS notification center module to deliver the newly copied items.  You can change your preference to play the sound and turn on/off notifications.
-    .header
-      How does auto hyperlink detection feature works?
-    .data
-      iDropCopy service has a time saving feature to highlight in blue if a copied text is a hyperlink.  When you click a copied hyperlink item it not only copies the item to your clipboard but also launches your default browser with serving up that hyperlink.  You can always turn on/off the auto hyperlink detection feature per device.
-    .header
-      How to clear all drop copied items?
-    .data
-      iDropCopy provides an easy way to clear all copied items on your shared clipboard by clicking the trash icon on top right corner.
-    .header
-      How much does an app like this cost?
-    .data
-      Similar apps in the app store can cost $3.99 and above but lack all the essential features that iDropCopy service provides. Please click the Available on the App Store image below to find out how to get iDropCopy with all the incredible feature-rich copy sharing features for a incredibly low price.
-    .ios-app-store
-      %a{:href => "http://itunes.apple.com/us/app/idropcopy/id593282822"}
-        %img{:alt => "Available on App Store", :border => "0", :height => "60", :src => "/img/iosappstore.png", :width => "180"}/
-      %br
-      %a{:href => "https://itunes.apple.com/us/app/idropcopy/id593282822"}
-        iDropCopy App for iOS
-.gray-box
-  #idropcopy-listview-osx
-    .header
-      How to copy between your Macs & iOS devices?
-    .data
-      Copy the normal way you do on your Macs (cmd+c) or iOS devices and iDropCopy service will automatically copy to your other devices. With auto copy to clipboard enabled all you have to do is copy an item on one of your device's and iDropCopy service copies that item to other device's clipboard.  There is nothing special you have to do, it works seamlessly without any effort.
-    .header
-      How does iDropCopy service works?
-    .data
-      iDropCopy service is built on top of one of the leading cloud file sharing application provider 
-      = succeed "." do
-        %a{:href => "http://www.dropbox.com"} Dropbox
-      When you copy a text from one of your devices it uses the Dropbox api service to store your copied data (encrypted) on their highly secured and reliable servers.
-    .header
-      How secure and private is your copied data?
-    .data
-      iDropCopy service uses industry standard AES encryption to secure the copied data and does not share or track your copied data with any one or organization.  iDropCopy service follows the 
-      %a{:href => "https://www.dropbox.com/help/category/Security%20and%20Privacy"} Dropbox security and privacy policy.
-    .header
-      iDropCopy OSX user interface design
-    .data
-      iDropCopy OSX user interface design was on purposefully built to match the iOS version to help you have a seamless experience with all of your Apple products and at the same time minimize the learning curve.
-    .header
-      iDropCopy OSX Status Bar Icon & Startup features
-    .data
-      iDropCopy OSX uses the status bar on top bar of your mac to help quickly get your iDropCopy Clipboard and preferences.  By default iDropCopy on OSX starts up automatically when start or reboot your mac.  You can control the start up option from the preferences window.
-    .header
-      How many copied items can be stored?
-    .data
-      iDropCopy service allows you to store 25, 50 or 100 copied items.  For efficiency it tracks for duplicate copied items and ignores them.
-    .header
-      How fast is the copied items synced between devices?
-    .data
-      iDropCopy service on Mac OSX by default checks every second for newly copied items.  iDropCopy settings does allow you to change the sync time interval per iOS device.  Also it provides a manual sync setting for your iOS devices that you want to control the copied data manually.
-    .header
-      How are desktop notification handled for newly copied items?
-    .data
-      iDropCopy service plays a unique and distinct water droplet sound when a newly copied item from another device arrives.  It also uses the standard Mac OSX notification center module to deliver the newly copied items.  You can change your preference to play the sound and turn on/off notifications.
-    .header
-      How does auto hyperlink detection feature works?
-    .data
-      iDropCopy service has a time saving feature to highlight in blue if a copied text is a hyperlink.  When you click a copied hyperlink item it not only copies the item to your clipboard but also launches your default browser with serving up that hyperlink.  You can always turn on/off the auto hyperlink detection feature per device.
-    .header
-      How to clear all drop copied items?
-    .data
-      iDropCopy provides an easy way to clear all copied items on your shared clipboard by clicking the trash icon on top right corner.
-    .header
-      How to minimize the iDropCopy Application?
-    .data
-      Simply click the iDropCopy logo on the app window title bar to minimize the application.
-    .header
-      How much does an app like this cost?
-    .data
-      Please click the Available on the Mac App Store image below to find out how to get iDropCopy with all the incredible feature-rich copy sharing features for a incredibly low price.
-    .osx-app-store
-      %a{:href => "javascript:alert('iDropCopy OSX is under review by Apple Mac App Store Team');"}
-        %img{:alt => "Available on App Store", :border => "0",  :src => "/img/osxappstore-under-review.png"}/
-        %br
-      %a{:href => "javascript:alert('iDropCopy OSX is under review by Apple Mac App Store Team.  Coming soon.');"}
-        iDropCopy App for Mac OSX
-:plain
-  <script type="text/javascript">
-  $(window).load(function(){
-    $('.flexslider').flexslider({
-      animation: "fade",
-      slideshowSpeed: 5000,          
-      animationSpeed: 1250, 
-      controlNav: true,     
-      directionNav: false, 
-      pauseOnAction: true,
-      pauseOnHover: true,  
-      start: function(slider) {
-      }
-    });   
-    $('#iconiDropCopy').attr("class", "appIconText appIconBg");
-    $("#iconiDropCopy").attr("onmouseout","this.className='appIconText appIconBg';");
-  });
-  </script>
+.row
+  .large-12.columns{:style => "padding:0px;margin:0px;"}
+    %ul{"data-options" => "timer_speed: 6000;animation_speed: 2500;stack_on_small:true;bullets:false;slide_number_class:orbit-slide-number-none;next_class:orbit-next-none;prev_class:orbit-prev-none;", "data-orbit" => ""}
+      %li
+        %a{:href => "/iDropCopy"} 
+          %img{:alt => "iDropCopy Don't Just Copy", :border => "0", :src => "/images/idropcopy/idropcopy-dont-just-copy-1000x525.png"}/
+      %li
+        %a{:href => "/iDropCopy"} 
+          %img{:alt => "iDropCopy for your iPhone", :border => "0", :src => "/images/idropcopy/idropcopy-for-your-iphone-1000x525.png"}/
+      %li
+        %a{:href => "/iDropCopy"} 
+          %img{:alt => "iDropCopy Code Snippet", :border => "0", :src => "/images/idropcopy/idropcopy-code-snippet-1000x525.png"}/  
+      %li
+        %a{:href => "/iDropCopy"} 
+          %img{:alt => "iDropCopy for your MacBook Air", :border => "0", :src => "/images/idropcopy/idropcopy-for-your-macbookair-1000x525.png"}/
+      %li
+        %a{:href => "/iDropCopy"} 
+          %img{:alt => "iDropCopy Copy Link", :border => "0", :src => "/images/idropcopy/idropcopy-copy-link-1000x525.png"}/
+      %li
+        %a{:href => "/iDropCopy"} 
+          %img{:alt => "iDropCopy for your iPad", :border => "0", :src => "/images/idropcopy/idropcopy-for-ipad-1000x525.png"}/
+      %li
+        %a{:href => "/iDropCopy"} 
+          %img{:alt => "iDropCopy for your iMac", :border => "0", :src => "/images/idropcopy/idropcopy-for-your-imac-1000x525.png"}/
+      %li
+        %a{:href => "/iDropCopy"} 
+          %img{:alt => "iDropCopy for your iPod", :border => "0", :src => "/images/idropcopy/idropcopy-for-your-ipod-1000x525.png"}/
+.row.pad-top-20 
+  .large-12.columns
+    .section-container.auto{"data-options" => "deep_linking: true;", "data-section" => "", :style => ""}
+      %section.section.active{:style => ""}
+        %p.title{:style => "left: 0px;"} 
+          %a{:href => "#panel1", :style => "font-size:18px;"} iDropCopy iOS
+        .content{"data-slug" => "panel1", :style => ""}  
+          .row
+            .large-7.columns
+              %img{:src => "/images/idropcopy/idropcopy-ios-title.png"}/
+              %h5
+                How to copy between your iOS devices & Macs?
+              %p
+                Copy the normal way you do on your iOS devices (mail, safari, notes, ...) and just touch the iDropCopy app icon will automatically copy to your other devices. With auto copy to clipboard enabled all you have to do is copy an item on one of your device's and iDropCopy service copies that item to other device's clipboard.  There is nothing special you have to do, it works seamlessly without any effort.
+              %h5
+                How does iDropCopy service works?
+              %p
+                iDropCopy service is built on top of one of the leading cloud file sharing application provider 
+                = succeed "." do
+                  %a{:href => "http://www.dropbox.com"} Dropbox
+                When you copy a text from one of your devices it uses the Dropbox api service to store your copied data (encrypted) on their highly secured and reliable servers.
+              %h5
+                How secure and private is your copied data?
+              %p
+                iDropCopy service uses industry standard AES encryption to secure the copied data and does not share or track your copied data with any one or organization.  iDropCopy service follows the 
+                %a{:href => "https://www.dropbox.com/help/category/Security%20and%20Privacy"} Dropbox security and privacy policy.
+              %h5
+                How many copied items can be stored?
+              %p
+                iDropCopy service allows you to store 25, 50 or 100 copied items.  For efficiency it tracks for duplicate copied items and ignores them.
+              %h5
+                How do I refresh my Drop Copy Clipboard?
+              %p
+                Simply click on the iDropCopy title or logo to refresh the drop copy clipboard.  If you are running iOS 6.0 or greater simply swipe down on the list and it will refresh the list.    
+              %h5
+                How are notification handled for newly copied items?
+              %p
+                iDropCopy service plays a unique and distinct water droplet sound when a newly copied item from another device arrives.  It also uses the standard iOS notification center module to deliver the newly copied items.  You can change your preference to play the sound and turn on/off notifications.
+              %h5
+                How does auto hyperlink detection feature works?
+              %p
+                iDropCopy service has a time saving feature to highlight in blue if a copied text is a hyperlink.  When you click a copied hyperlink item it not only copies the item to your clipboard but also launches your default browser with serving up that hyperlink.  You can always turn on/off the auto hyperlink detection feature per device.
+              %h5
+                How to clear all drop copied items?
+              %p
+                iDropCopy provides an easy way to clear all copied items on your shared clipboard by clicking the trash icon on top right corner.
+              %h5
+                How much does an app like this cost?
+              %p
+                Similar apps in the app store can cost $3.99 and above but lack all the essential features that iDropCopy service provides. Please click the Available on the App Store image below to find out how to get iDropCopy with all the incredible feature-rich copy sharing features for a incredibly low price.
+              %p
+                %a{:href => "http://itunes.apple.com/us/app/idropcopy/id593282822"}
+                  %img{:alt => "Available on App Store", :border => "0", :height => "60", :src => "/images/iosappstore.png", :width => "180"}/
+                %br
+                %a{:href => "http://itunes.apple.com/us/app/idropcopy/id593282822"}
+                  iDropCopy App for iOS
+            .large-5.columns
+              %img{:src => "/images/idropcopy/idropcopy-screenshot-clipboard-400x600.png"}/ 
+              %img{:src => "/images/idropcopy/idropcopy-screenshot-settings-400x600.png"}/ 
+              .row.pad-top-20
+                .small-10.columns{:style => "padding:0px;margin:0px;padding-left:45px;"}
+                  .panel.radius
+                    .row
+                      .small-5.columns
+                        %a{:href => "#panel2"}
+                          %img{:src => "/images/idropcopy/idropcopy-170x170.png", :style => "width:80px;height:80px"}
+                      .small-7.columns
+                        %p{:style => "padding-top:25px;padding-right:20px;"} 
+                          %a{:href => "#panel2", :style => "font-size:22px;"} iDropCopy for OSX
+              
+
+      %section.section{:style => "padding-top: 49px;"}
+        %p.title{:style => "left: 87px;"}
+          %a{:href => "#panel2", :style => "font-size:18px;"} iDropCopy OSX
+        .content{"data-slug" => "panel2", :style => ""}
+          .row
+            .large-7.columns
+              %img{:src => "/images/idropcopy/idropcopy-osx-title.png"}/
+              %h5
+                How to copy between your Macs & iOS devices?
+              %p
+                Copy the normal way you do on your Macs (cmd+c) or iOS devices and iDropCopy service will automatically copy to your other devices. With auto copy to clipboard enabled all you have to do is copy an item on one of your device's and iDropCopy service copies that item to other device's clipboard.  There is nothing special you have to do, it works seamlessly without any effort.
+              %h5
+                How does iDropCopy service works?
+              %p
+                iDropCopy service is built on top of one of the leading cloud file sharing application provider 
+                = succeed "." do
+                  %a{:href => "http://www.dropbox.com"} Dropbox
+                When you copy a text from one of your devices it uses the Dropbox api service to store your copied data (encrypted) on their highly secured and reliable servers.
+              %h5
+                How secure and private is your copied data?
+              %p
+                iDropCopy service uses industry standard AES encryption to secure the copied data and does not share or track your copied data with any one or organization.  iDropCopy service follows the 
+                %a{:href => "https://www.dropbox.com/help/category/Security%20and%20Privacy"} Dropbox security and privacy policy.
+              %h5
+                iDropCopy OSX user interface design
+              %p
+                iDropCopy OSX user interface design was on purposefully built to match the iOS version to help you have a seamless experience with all of your Apple products and at the same time minimize the learning curve.
+              %h5
+                iDropCopy OSX Status Bar Icon & Startup features
+              %p
+                iDropCopy OSX uses the status bar on top bar of your mac to help quickly get your iDropCopy Clipboard and preferences.  By default iDropCopy on OSX starts up automatically when start or reboot your mac.  You can control the start up option from the preferences window.
+              %h5
+                How many copied items can be stored?
+              %p
+                iDropCopy service allows you to store 25, 50 or 100 copied items.  For efficiency it tracks for duplicate copied items and ignores them.
+              %h5
+                How fast is the copied items synced between devices?
+              %p
+                iDropCopy service on Mac OSX by default checks every second for newly copied items.  iDropCopy settings does allow you to change the sync time interval per iOS device.  Also it provides a manual sync setting for your iOS devices that you want to control the copied data manually.
+              %h5
+                How are desktop notification handled for newly copied items?
+              %p
+                iDropCopy service plays a unique and distinct water droplet sound when a newly copied item from another device arrives.  It also uses the standard Mac OSX notification center module to deliver the newly copied items.  You can change your preference to play the sound and turn on/off notifications.
+              %h5
+                How does auto hyperlink detection feature works?
+              %p
+                iDropCopy service has a time saving feature to highlight in blue if a copied text is a hyperlink.  When you click a copied hyperlink item it not only copies the item to your clipboard but also launches your default browser with serving up that hyperlink.  You can always turn on/off the auto hyperlink detection feature per device.
+              %h5
+                How to clear all drop copied items?
+              %p
+                iDropCopy provides an easy way to clear all copied items on your shared clipboard by clicking the trash icon on top right corner.
+              .header
+                How to minimize the iDropCopy Application?
+              %p
+                Simply click the iDropCopy logo on the app window title bar to minimize the application.
+              %h5
+                How much does an app like this cost?
+              %p
+                Please click the Available on the Mac App Store image below to find out how to get iDropCopy with all the incredible feature-rich copy sharing features for a incredibly low price.
+
+              %p
+                %a{:href => "javascript:alert('iDropCopy OSX is under review by Apple Mac App Store Team');"}
+                  %img{:alt => "Available on App Store", :border => "0",  :src => "/images/osxappstore-under-review.png"}/
+                  %br
+                %a{:href => "javascript:alert('iDropCopy OSX is under review by Apple Mac App Store Team.  Coming soon.');"}
+                  iDropCopy App for Mac OSX
+            .large-5.columns
+              %img{:src => "/images/idropcopy/idropcopy-osx-screenshot-clipboard-400x600.png"}/ 
+              %img{:src => "/images/idropcopy/idropcopy-osx-screenshot-settings-400x600.png"}/ 
+              .row.pad-top-20
+                .small-10.columns{:style => "padding:0px;margin:0px;padding-left:45px;"}
+                  .panel.radius
+                    .row
+                      .small-5.columns
+                        %a{:href => "#panel1"}
+                          %img{:src => "/images/idropcopy/idropcopy-170x170.png", :style => "width:80px;height:80px"}
+                      .small-7.columns
+                        %p{:style => "padding-top:25px;padding-right:20px"} 
+                          %a{:href => "#panel1", :style => "font-size:22px;"} iDropCopy for iOS
+
+

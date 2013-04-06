@@ -1,20 +1,117 @@
-.section
-  %p
-    myVoiceDrop turns your iPhone, iPod Touch & iPad into your personal podcast and voice gram to share with others.
-  %p
-    myVoiceDrop uses your Dropbox account to share your recording with others and also makes it easier to access your recordings from your Mac and PC for editing with other applications.  
-  .ios-app-store
-    %a{:href => "http://itunes.apple.com/us/app/myvoicedrop/id625987268"}
-      %img{:alt => "Available on App Store", :border => "0", :height => "60", :src => "/img/iosappstore.png", :width => "180"}/
-    %br
-    %a{:href => "http://itunes.apple.com/us/app/myvoicedrop/id625987268"}
-      myVoiceDrop App for iOS
+.row
+  .large-12.columns{:style => "padding:0px;margin:0px;"}
+    %ul{"data-options" => "timer_speed: 6000;animation_speed: 2500;stack_on_small:true;bullets:false;slide_number_class:orbit-slide-number-none;next_class:orbit-next-none;prev_class:orbit-prev-none;", "data-orbit" => ""}
+      %li
+        %a{:href => "/myVoiceDrop"} 
+          %img{:alt => "myVoiceDrop - Voicegram!", :border => "0", :src => "/images/myvoicedrop/myvoicedrop-voicegram-banner-1000x525.png"}/
+      %li
+        %a{:href => "/myVoiceDrop"} 
+          %img{:alt => "myVoiceDrop - Podcast!", :border => "0", :src => "/images/myvoicedrop/myvoicedrop-podcast-banner-1000x525.png"}/
+      %li
+        %a{:href => "/myVoiceDrop"} 
+          %img{:alt => "myVoiceDrop - Share Your Voice!", :border => "0", :src => "/images/myvoicedrop/myvoicedrop-shareyourvoice-banner-1000x525.png"}/
+.row.pad-top-20 
+  .large-12.columns
+    .section-container.auto{"data-options" => "deep_linking: true;", "data-section" => "", :style => ""}
+      %section.section.active{:style => ""}
+        %p.title{:style => "left: 0px;"} 
+          %a{:href => "#panel1", :style => "font-size:18px;"} iDropCopy iOS
+        .content{"data-slug" => "panel1", :style => ""}  
+          .row.pad-content
+            .large-7.columns
+              %img{:src => "/images/myvoicedrop/myvoicedrop-ios-title-500x125.png"}/
+              %p
+                myVoiceDrop turns your iPhone, iPod Touch & iPad into your personal podcast and voice gram to share with others. 
+              %p
+                myVoiceDrop uses your Dropbox account to share your recording with others and also makes it easier to access your recordings from your Mac and PC for editing with other applications.
+              %p
+                myVoiceDrop can help in the following way:
+              .circle1 
+                %ul
+                  %li
+                    Create Podcasts easily and then edit using your mac or pc.
+                  %li
+                    Create voice overs and audible text to share it with others.
+                  %li
+                    Create short voice grams to share it with your family and friends.
+                  %li
+                    Record a team or important meeting to share with your department or organization
+            
+            .large-5.columns
+              %img{:src => "/images/myvoicedrop/myvoicedrop-readytorecord-640x960.png", :vspace => "20"}/ 
+          .row.gray-box.pad-content-right
+            .large-5.columns
+              %img{:src => "/images/myvoicedrop/myvoicedrop-recording-640x960.png"}/ 
+            .large-7.columns.mobix-right
+              %img{:src => "/images/myvoicedrop/myvoicedrop-recording-title-500x125.png"}/
+              %p.mobix-left.pad-left-60
+                myVoiceDrop provides a very easy to record and stop by toggling the button between myVoiceDrop logo button for play and red stop button to end the recording.
+              %p.mobix-left.pad-left-60
+                myVoiceDrop provides audio sound cue when you start and end the recording. 
+              %p.mobix-left.pad-left-60
+                myVoiceDrop refreshes time of the recording every second while recording.
+              %p.mobix-left.pad-left-60
+                myVoiceDrop save the recording locally into a unique file name and provides the duration and size of the audio file
+              %p.mobix-left.pad-left-60
+                You can play back the recording and if you do like it you can delete and start over.
+           
+          .row.gray-box.pad-content
+            .large-7.columns
+              %img{:src => "/images/myvoicedrop/myvoicedrop-rename-title-500x125.png"}/
+              %p
+                myVoiceDrop provides way to rename your file before or after loading to your dropbox account.
+              %p
+                With a single touch you can upload your recorded file to your dropbox account.  Once it is upload myVoiceDrop shows you the path of the recorded file in Dropbox. 
+                              
+            .large-5.columns
+              %img{:src => "/images/myvoicedrop/myvoicedrop-rename-640x960.png"}/ 
+          .row.gray-box.pad-content-right
+            .large-5.columns
+              %img{:src => "/images/myvoicedrop/myvoicedrop-share-640x960.png"}/ 
+            .large-7.columns.mobix-right
+              %img{:src => "/images/myvoicedrop/myvoicedrop-sharing-title-500x125.png"}/
+              %p.mobix-left.pad-left-60
+                With a single touch you can email your recording via email to your friends and family.  We use the dropbox share link feature to create a unique link.
+              %p.mobix-left.pad-left-60
+                You can go to 
+                %a{:href => "https://www.dropbox.com/links"}
+                  Dropbox links 
+                web page to manage all your shared links.  Also you can learn more about 
+                %a{:href => "https://www.dropbox.com/help/category/Sharing"}
+                  dropbox sharing 
+                by going to their help page on sharing.   
+                
+          .row.gray-box.pad-content
+            .large-7.columns
+              %img{:src => "/images/myvoicedrop/myvoicedrop-settings-title-500x125.png"}/
+              %h5
+                Automatically upload to Dropbox after recording
+              %p
+                You can choose to upload your recording to your dropbox account automatically after stop recording or manually after you use the playback and rename feature.              
+              %h5
+                Continue recording in background and locked
+              %p
+                Continue recording in the background and locked mode for convenience.   
+              %h5
+                Play sound at the start and end of recording
+              %p
+                You have the option to turn on or off the audio sound cue before start and stop of every recording.   
+              %h5
+                Delete confirmation alert prompt
+              %p
+                You can disable the delete recording confirmation alert.  
+                     
+            .large-5.columns
+              %img{:src => "/images/myvoicedrop/myvoicedrop-settings-640x960.png"}/ 
 
-:plain
-  <script type="text/javascript">
-  $(window).load(function(){
-   
-    $('#iconmyVoiceDrop').attr("class", "appIconText appIconBg");
-    $("#iconmyVoiceDrop").attr("onmouseout","this.className='appIconText appIconBg';");
-  });
-  </script>
+          .row
+            .large-12.columns
+              %p
+                %a{:href => "http://itunes.apple.com/us/app/myvoicedrop/id625987268"}
+                  %img{:alt => "Available on App Store", :border => "0", :height => "60", :src => "/images/iosappstore.png", :width => "180"}/
+                %br
+                %a{:href => "https://itunes.apple.com/us/app/myvoicedrop/id625987268"}
+                  myVoiceDrop App for iOS
+
+
+
