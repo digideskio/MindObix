@@ -60,6 +60,13 @@ class App < Sinatra::Base
   	haml :myvoicedrop
 	end
 	
+	get %r{^/idropcopy/securityprivacy?$}i do
+  	@metaTitle = 'iDropCopy Help'
+  	@metaDescr = 'iDropCopy Help'
+  	@metaKeywords = 'iDropCopy Security and Privacy, iDropCopy Support, iDropCopy MAC OSX Help, iDrop Copy iOS help, i drop copy, dropbox copy, cloud copy, cloud clipboard, drop clipboard, copy paste cloud, copy paste sharing, clipboard sharing, dropbox idropcopy, dropbox copy paste'
+  	haml :'idropcopy/securityprivacy'
+	end
+	
 	get %r{^/idropcopy/help?$}i do
   	@metaTitle = 'iDropCopy Help'
   	@metaDescr = 'iDropCopy Help'
